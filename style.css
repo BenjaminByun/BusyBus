@@ -127,8 +127,8 @@ h2 {
 }
 
 .time {
+  background-color: blue;
   display: inline-block;
-  text-align: right;
   margin-left: 100px;
   margin-top: 10px;
   font-size: 2.5em;
@@ -146,7 +146,7 @@ h2 {
 
 .arrow {
   float: right;
-  clear: right;
+  /* clear: right; */
   padding-top: 20px;
   padding-right: 10px;
   color: grey;
@@ -161,20 +161,20 @@ h2 {
 }
 
 /* TIME REMAINING */
-  #min {
+  /* #min {
     display: inline-block;
-    font-size: 1.25em;
+    font-size: 1.25em; */
   /* position: relative; */
   /* bottom: 10px; */
   /* left: 25px; */
   /* font-size: 2em; */
   /* border-bottom: 0px; */
-}
+/* } */
 
-.min {
+/* .min {
   position: relative;
   padding-bottom: 0px;
-}
+} */
 
 /* h3 {
   display: block;
