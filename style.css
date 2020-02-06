@@ -18,18 +18,17 @@ body {
 
 h2 {
   display: inline-block;
-  font-size: 1.75em;
+  font-size: 2em;
   padding-top: 10px;
 }
 
-.bus_numbers {
+/* .bus_numbers {
   display: inline-block;
   margin-left: 45px;
-  /* padding-bottom: 30px; */
-  /* margin-top: -10px; */
-}
+  margin-top: 10px;
+} */
 
-.bus_numbers > p {
+/* .bus_numbers > p {
   display: inline-block;
   color: black;
   font-size: 1.5em;
@@ -38,13 +37,13 @@ h2 {
   padding-right: 10px;
   padding-left: 10px;
   margin-left: 2px;
-}
+} */
 
-.walk {
+/* .walk {
   padding-left: 40px;
-}
+} */
 
-.walk > p {
+/* .walk > p {
   display: inline-block;
   color: #009C1B;
   font-size: 1.75em;
@@ -55,12 +54,12 @@ h2 {
   padding-left: 10px;
   text-align: left;
   margin-left: 2px;
-}
+} */
 
-.fa-walking {
+/* .fa-walking {
   padding-right: 10px;
   padding-top: 3px;
-}
+} */
 
 .navigation > .fa-bus {
   padding-left: 30px;
@@ -69,9 +68,8 @@ h2 {
 }
 
 .fa-ellipsis-h {
-  position: absolute;
-  margin-left: 375px;
-  margin-top: -35px;
+  display: inline-block;
+  padding-left: 30px;
 }
 
 
@@ -84,33 +82,30 @@ h2 {
   background-color: #DADADA;
 }
 
-
-/* "NEXT ARRIVALS" */
-.bus-list {
-  padding-left: 1%;
-}
-
-.next_arrivals > h2 {
+h2 {
   display: inline-block;
-  margin-bottom: 0px;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
-/* Block of Next Arrival */
-.content {
+.E60 li{
+  list-style-type: none;
+}
+
+.buslist {
   width: 99%;
   background-color: #ffffff;
-  height: 75px;
+  height: auto;
   margin: 1px;
 }
 
 .fa-bus {
-  display: inline-block;
-  padding-left: 20px;
+  /* display: inline-block; */
+  /* padding-left: 20px; */
 }
 
 /* Bus Number in Next Arrivals */
-.content > h1 {
+
+h1 {
   display: inline-block;
   font-size: 2em;
   margin-left: 3%;
@@ -120,22 +115,20 @@ h2 {
   padding-left: 10px;
 }
 
-.content > h3 {
+h2 {
   display: inline-block;
-  font-size: 1.5em;
-  padding-left: 10px;
+  font-size: 1.75em;
 }
 
-.time {
-  background-color: blue;
+p {
   display: inline-block;
-  margin-left: 100px;
-  margin-top: 10px;
+  color: #009C1B;
+  font-weight: bold;
   font-size: 2.5em;
-  margin-top: 12px;
+  padding-left: 100px;
 }
 
-.fa-wifi {
+p > .fa-wifi {
   font-size: .5em;
   -webkit-transform:rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -144,21 +137,49 @@ h2 {
   transform: rotate(45deg);
 }
 
-.arrow {
+h3 {
+  float: left;
+  font-size: 1.5em;
+}
+
+.dest {
+  float: left;
+}
+
+.freq {
   float: right;
+}
+
+
+/* .time { */
+  /* display: inline-block; */
+  /* font-size: 2.5em; */
+/* } */
+
+/* .busList > .fa-wifi {
+  font-size: .5em;
+  -webkit-transform:rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+} */
+
+/* .arrow {
+  float: right; */
   /* clear: right; */
-  padding-top: 20px;
+  /* padding-top: 20px;
   padding-right: 10px;
   color: grey;
   font-size: 15px;
-}
+} */
 
-.destination {
+/* .destination {
     position: relative;
     font-size: 1.25em;
     bottom: 28px;
     left: 45px;
-}
+} */
 
 /* TIME REMAINING */
   /* #min {
@@ -209,9 +230,9 @@ h2 {
     padding-top: 10px; */
 }
 
-.time {
+/* .time {
   display: inline-block;
-}
+} */
 /* .time > p {
   display: block;
   padding-top: 0px;
@@ -220,18 +241,13 @@ h2 {
   font-size: 1.25em;
 } */
 
-p {
-  color: #009C1B;
-  font-weight: bold;
-  margin-top: 0px;
-}
 
 
 
 
 
 /* SCHEDULED ARRIVALS */
-
+/*
 .scheduled_arrivals > h2 {
   margin-bottom: 0px;
   margin-left: 20px;
@@ -251,4 +267,4 @@ p {
   left: 25px;
   bottom: 10px;
   font-size: 1em;
-}
+} */
