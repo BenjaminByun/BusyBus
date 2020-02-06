@@ -9,6 +9,7 @@ body {
 	font-size: 100%;
   background-color: #333;
   font-size: 10px;
+  font-family: roboto;
 }
 
 .fa-inverse {
@@ -16,19 +17,19 @@ body {
   padding-top: 20px;
 }
 
+
 h2 {
   display: inline-block;
   font-size: 2em;
   padding-top: 10px;
 }
 
-/* .bus_numbers {
-  display: inline-block;
+.bus_numbers {
+  /* display: inline-block; */
   margin-left: 45px;
-  margin-top: 10px;
-} */
+}
 
-/* .bus_numbers > p {
+.bus_numbers > p {
   display: inline-block;
   color: black;
   font-size: 1.5em;
@@ -37,29 +38,25 @@ h2 {
   padding-right: 10px;
   padding-left: 10px;
   margin-left: 2px;
-} */
+}
 
-/* .walk {
+.walk {
   padding-left: 40px;
-} */
+}
 
-/* .walk > p {
+.walk > p {
   display: inline-block;
-  color: #009C1B;
   font-size: 1.75em;
-  border-radius: 25px;
   background-color: #ffffff;
   border-radius: 25px;
   padding-right: 10px;
-  padding-left: 10px;
-  text-align: left;
-  margin-left: 2px;
-} */
+  padding-left: 10px
+}
 
-/* .fa-walking {
+.fa-walking {
   padding-right: 10px;
   padding-top: 3px;
-} */
+}
 
 .navigation > .fa-bus {
   padding-left: 30px;
@@ -69,7 +66,7 @@ h2 {
 
 .fa-ellipsis-h {
   display: inline-block;
-  padding-left: 30px;
+  padding-left: 70px;
 }
 
 
@@ -78,37 +75,27 @@ h2 {
 .container {
   margin: 10% auto;
   width: 400px;
-  height: 667px;
+  height: auto;
   background-color: #DADADA;
 }
 
-h2 {
-  display: inline-block;
-  margin-left: 5px;
-}
-
-.E60 li{
+.row {
   list-style-type: none;
-}
-
-.buslist {
-  width: 99%;
   background-color: #ffffff;
   height: auto;
   margin: 1px;
 }
 
 .fa-bus {
-  /* display: inline-block; */
-  /* padding-left: 20px; */
+  display: inline;
+  padding-top: 20px;
 }
 
-/* Bus Number in Next Arrivals */
-
 h1 {
-  display: inline-block;
+  display: inline;
   font-size: 2em;
-  margin-left: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
   background-color: #FF9500;
   border-radius: 25px;
   padding-right: 10px;
@@ -116,16 +103,16 @@ h1 {
 }
 
 h2 {
-  display: inline-block;
+  display: inline;
   font-size: 1.75em;
 }
 
 p {
-  display: inline-block;
+  display: inline;
   color: #009C1B;
   font-weight: bold;
   font-size: 2.5em;
-  padding-left: 100px;
+  padding-left: 80px;
 }
 
 p > .fa-wifi {
@@ -138,17 +125,97 @@ p > .fa-wifi {
 }
 
 h3 {
-  float: left;
+  display: inline-block;
   font-size: 1.5em;
 }
 
 .dest {
-  float: left;
+  padding-left: 30px;
 }
 
 .freq {
-  float: right;
+  padding-left: 60px;
 }
+
+.out {
+  background-color: grey;
+}
+/* h2 {
+  display: inline-block;
+  margin-left: 5px;
+} */
+
+/* .col1 {
+  list-style-type: none;
+} */
+
+/* .col2 {
+  list-style-type: none;
+
+} */
+
+
+
+/* .fa-bus { */
+  /* display: inline-block; */
+  /* padding-left: 20px; */
+}
+
+/* Bus Number in Next Arrivals */
+/*
+h1 {
+  display: inline-block;
+  font-size: 2em;
+  margin-left: 3%;
+  background-color: #FF9500;
+  border-radius: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+} */
+
+/* h2 {
+  display: inline-block;
+  font-size: 1.75em;
+} */
+
+/* p {
+  display: inline-block;
+  color: #009C1B;
+  font-weight: bold;
+  font-size: 2.5em;
+  padding-left: 100px;
+} */
+
+/* p > .fa-wifi {
+  font-size: .5em;
+  -webkit-transform:rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+} */
+
+/* h3 {
+  float: left;
+  font-size: 1.5em;
+} */
+
+/* .dest {
+  position: relative;
+  bottom: 25px;
+  left: 30px;
+  background-color: #FFFFFF;
+  border-bottom: 30px;
+  } */
+
+/* .freq {
+  display: flex;
+  float: right;
+  position: relative;
+  right: 20px;
+  bottom: 25px;
+  background-color: #FFFFFF;
+} */
 
 
 /* .time { */
