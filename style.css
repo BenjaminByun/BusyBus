@@ -13,7 +13,7 @@ body {
 }
 
 .navigation > .fa-inverse {
-  color: black;
+  color: #1C140D;
 }
 
 .fa-inverse {
@@ -26,10 +26,11 @@ h2 {
   display: inline-block;
   font-size: 2em;
   padding-top: 10px;
+  padding-left: 30px;
 }
 
 .bus_numbers {
-  margin-left: 45px;
+  margin-left: 30px;
 }
 
 .bus_numbers > p {
@@ -44,13 +45,14 @@ h2 {
 }
 
 .walk {
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 .walk > p {
   display: inline-block;
-  font-size: 1.75em;
-  background-color: #ffffff;
+  font-size: 1.25em;
+  background-color: #F2E9E1;
+  border: 2px solid #1C140D;
   border-radius: 25px;
   padding-right: 10px;
   padding-left: 10px
@@ -62,6 +64,7 @@ h2 {
 }
 
 .navigation > .fa-bus {
+  color: #1C140D;
   padding-left: 30px;
   padding-right: 5px;
   padding-top: 12px;
@@ -79,25 +82,25 @@ h2 {
   margin: 10% auto;
   width: 400px;
   height: auto;
-  background-color: #DADADA;
+  background-color: #F2E9E1;
 }
 
 .row {
   list-style-type: none;
-  background-color: #ffffff;
-  height: auto;
+  background-color: #F2E9E1;
+  border: 2px solid #Ffffff;
+  height: 70px;
   margin: 1px;
 }
 
 .fa-bus {
-  display: inline;
-  padding-top: 20px;
+  margin: -20px;
 }
 
 h1 {
   display: inline;
-  font-size: 2em;
-  margin-left: 2%;
+  font-size: 1.5em;
+  margin-left: 7%;
   margin-right: 2%;
   background-color: #FF9500;
   border-radius: 25px;
@@ -107,19 +110,49 @@ h1 {
 
 h2 {
   display: inline;
+  color: #1C140D;
   font-size: 1.75em;
 }
 
+
 p {
   display: inline;
-  color: #009C1B;
+  left: 0px;
+  color: ##007013;
   font-weight: bold;
-  font-size: 2.5em;
-  padding-left: 80px;
+  font-size: 3em;
 }
 
-p > .fa-wifi {
+.area {
+  font-size: 1.5em;
+  color: black;
+  }
+
+
+h4 {
+  color: #007A14;
+  display: inline;
+  position: relative;
+  left: 55px;
+  font-size: 3em;
+}
+
+.navy {
+  padding-left: 60px;
+}
+
+.devon {
+  padding-left: 30px;
+}
+
+h5 {
+  display: inline;
+  font-size: 1.25em;
+}
+
+h4 > .fa-wifi {
   font-size: .5em;
+  color: #007A14;
   -webkit-transform:rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -133,13 +166,29 @@ h3 {
 }
 
 .dest {
-  padding-left: 30px;
-}
+  position: relative;
+  left: 55px;
+ }
 
 .freq {
-  padding-left: 60px;
+  color: #007A14;
+  position: relative;
+  left: 180px;
 }
 
+.resume {
+  position: relative;
+  color: #C0303C;
+  font-size: 1.5em;
+  font-weight: 600;
+  left: 140px;
+}
+
+span {
+  /* color: #8F242D; */
+  font-size: 2em;
+  font-weight: bold;
+}
 .out {
-  background-color: grey;
+  background-color: #CCBAA4;
 }
