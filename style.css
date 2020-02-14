@@ -12,21 +12,38 @@ body {
   font-family: roboto;
 }
 
-.navigation > .fa-inverse {
+.navigation li {
+  list-style-type: none;
+}
+
+li > .fa-inverse {
   color: #1C140D;
 }
 
 .fa-inverse {
-  padding-left: 20px;
-  padding-top: 20px;
+  float: left;
+  margin: -30px;
+  padding-top: 50px;
 }
 
+li > .fa-bus {
+  float: left;
+  padding-top: 20px;
+  padding-right: 10px;
+}
 
-h2 {
-  display: inline-block;
+h1 {
+  float: left;
+  font-size: 1.5em;
+  background-color: #FF9500;
+  border-radius: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+li h2 {
+  float: left;
   font-size: 2em;
-  padding-top: 10px;
-  padding-left: 30px;
 }
 
 .bus_numbers {
@@ -34,7 +51,6 @@ h2 {
 }
 
 .bus_numbers > p {
-  display: inline-block;
   color: black;
   font-size: 1.5em;
   background-color: #FF9500;
@@ -45,14 +61,14 @@ h2 {
 }
 
 .walk {
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .walk > p {
   display: inline-block;
   font-size: 1.25em;
   background-color: #F2E9E1;
-  border: 2px solid #1C140D;
+  border: 1px solid #1C140D;
   border-radius: 25px;
   padding-right: 10px;
   padding-left: 10px
@@ -60,19 +76,17 @@ h2 {
 
 .fa-walking {
   padding-right: 10px;
-  padding-top: 3px;
 }
 
 .navigation > .fa-bus {
   color: #1C140D;
-  padding-left: 30px;
-  padding-right: 5px;
-  padding-top: 12px;
+  float: left;
 }
 
 .fa-ellipsis-h {
-  display: inline-block;
-  padding-left: 60px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 40px;
 }
 
 
@@ -85,31 +99,36 @@ h2 {
   background-color: #F2E9E1;
 }
 
-.row {
-  list-style-type: none;
+.buses {
   background-color: #F2E9E1;
+  height: 75px;
   border: 2px solid #Ffffff;
-  height: 70px;
   margin: 1px;
 }
 
-.fa-bus {
-  margin: -20px;
+.row {
+  display: inline;
+  list-style-type: none;
 }
 
-h1 {
-  display: inline;
+.row li .fa-bus {
+  float: left;
+  padding: 0px;
+  margin-left: 27px;
+  margin-right: 10px;
+}
+
+.busnumber {
+  float: left;
+  text-align: center;
   font-size: 1.5em;
-  margin-left: 7%;
-  margin-right: 2%;
   background-color: #FF9500;
   border-radius: 25px;
-  padding-right: 10px;
-  padding-left: 10px;
+  width: 40px;
 }
 
 h2 {
-  display: inline;
+  float: left;
   color: #1C140D;
   font-size: 1.75em;
 }
@@ -124,17 +143,38 @@ p {
 }
 
 .area {
+  float: left;
+  padding-left: 10px;
   font-size: 1.5em;
   color: black;
   }
 
-
-h4 {
+.time {
   color: #007A14;
-  display: inline;
-  position: relative;
-  left: 55px;
+  float: right;
+  padding-right: 10px;
   font-size: 3em;
+  margin-top: -10px;
+}
+
+.bottom {
+  display: inline;
+  list-style-type: none;
+}
+
+.dest {
+  float: left;
+  font-size: 1.25em;
+  padding-left: 60px;
+  padding-top: 10px;
+ }
+
+.freq {
+  color: #007A14;
+  float: right;
+  font-size: 1.25em;
+  padding-top: 10px;
+  margin-right: -100px;
 }
 
 .navy {
@@ -145,12 +185,7 @@ h4 {
   padding-left: 30px;
 }
 
-h5 {
-  display: inline;
-  font-size: 1.25em;
-}
-
-h4 > .fa-wifi {
+.time > .fa-wifi {
   font-size: .5em;
   color: #007A14;
   -webkit-transform:rotate(45deg);
@@ -165,30 +200,37 @@ h3 {
   font-size: 1.5em;
 }
 
-.dest {
-  position: relative;
-  left: 55px;
- }
-
-.freq {
-  color: #007A14;
-  position: relative;
-  left: 180px;
-}
-
 .resume {
-  position: relative;
+  float: right;
   color: #C0303C;
   font-size: 1.5em;
-  font-weight: 600;
-  left: 140px;
+  font-weight: 300;
+  padding-top: 5px;
+  padding-right: 5px;
 }
 
 span {
-  /* color: #8F242D; */
+  color: #8F242D;
   font-size: 2em;
-  font-weight: bold;
+  padding-left: 10px;
 }
+#time {
+  color: #F2E9E1;
+  float: right;
+  padding-right: 10px;
+  font-size: 3em;
+  margin-top: -10px;
+}
+
+#na {
+  color: #007A14;
+  float: right;
+  font-size: 1.5em;
+  padding-top: 10px;
+  margin-right: -55px;
+}
+
+
 .out {
   background-color: #CCBAA4;
 }
